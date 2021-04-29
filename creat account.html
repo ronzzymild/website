@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2><span style="color: red;">GO</span><span style="color: purple;">CODE</span></h2>
+            </div>
+            <div class="nav-items">
+                <ul class="nav-links" id="navlinks">
+                    <div class="nav-exit" onclick="navexit()">
+                        <span><li class="fas fa-times"></li></span>
+                    </div>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Curses</a></li>
+                    <li><a href="#">Relate</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li style="border: 1px solid gray; border-radius: 3rem; padding: 2px 4px;">
+                        <a style="color: red; " href="./creat account.html">Creat account</a></li>
+                </ul>
+            </div> 
+
+            <div class="social">
+                <span><li class="fab fa-facebook-f"></li></span>
+                <span><li class="fab fa-instagram"></li></span>
+                <span><li class="fab fa-twitter"></li></span>
+                <span><li class="fab fa-youtube"></li></span>
+                <span><li class="fab fa-linkedin"></li></span>
+            </div>
+            
+            <div class="toggle" onclick="navdisplay()">
+                <span><li class="fas fa-bars"></li></span>
+            </div>
+        </nav>
+    </header>
+
+
+        <section class="form-account">
+        <div class="account-form">
+            <div class="main-form">
+                    <h2>Creat An Account</h2>
+                    <p style="text-align: center; color: gray; margin-left: 30px;">Password must contain at least 8 characters</p>
+            <form action="">
+                <label for="name">First name</label> <br>
+                <input type="text" placeholder="enter name"> <br>
+
+                <label for="name">Last name</label> <br>
+                <input type="text" placeholder="enter name"> <br>
+
+                <label for="name">Phone Number</label> <br>
+                <input type="text" placeholder="enter number"> <br>
+
+                <label for="name">Email</label> <br>
+                <input type="email" placeholder="email"> <br>
+
+                <label for="name">Password</label> <br>
+                <input type="password" placeholder="***********"> <br>
+            </form>
+            <br>
+            <button class="sign-up-btn">Sign up</button>
+            <br> <br>
+             <span class="accoun-text" >Have an account?<a href="./Login.html">LOGIN</a></span>
+            </div>
+        </div>
+</section>
+
+
+
+    
+
+
+<script src="./Js/main.js"></script>
+</body>
+</html>
